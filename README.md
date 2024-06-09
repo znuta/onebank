@@ -13,18 +13,18 @@ Before you begin, ensure you have the following installed on your local machine:
 ### 1. Clone the Repository
 Open a terminal and run the following command to clone your repository:
 
-git clone https://github.com/znuta/onebank.git
+**git clone https://github.com/znuta/onebank.git**
 
 Navigate into the cloned repository:
 
-cd onebank
+**cd onebank**
 
 ### Building the Project
 Ensure you are in the root directory of the cloned repository.
 
 Run the following command to build the project using Maven:
 
-mvn clean install
+**mvn clean install**
 
 This command will clean any previous builds and install the required dependencies.
 
@@ -32,15 +32,16 @@ This command will clean any previous builds and install the required dependencie
 ### 1. Using Maven
 
 After the build is complete, run the following command to start the application:
-mvn spring-boot:run
+
+**mvn spring-boot:run**
 
 
 ### 2. Build the Docker Images
 If you have a Dockerfile in your project, you might want to build the Docker images first. You can do this by running:
 
-  git clone https://github.com/yourusername/your-repo.gitdocker-compose build 
+**docker-compose build** 
 
 ### 3. Run the Docker Containers
 Use Docker Compose to start the containers for your application and database:
  ```bash
-git clone https://github.com/yourusername/your-repo.gitdocker-compose up
+ docker-compose up
