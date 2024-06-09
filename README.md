@@ -1,4 +1,4 @@
-# How to Run Your Spring Boot Application Using Docker Compose
+# How to Run the Application
 
 ## Summary of the Application
 This app implements a payment account system using a double ledger approach to manage credit and debit transactions. The authentication uses JWT for secure access and an API key approach for programmatic use on third-party applications.
