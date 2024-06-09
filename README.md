@@ -37,8 +37,8 @@ mvn spring-boot:run
 
 ### 2. Build the Docker Images
 If you have a Dockerfile in your project, you might want to build the Docker images first. You can do this by running:
-```bash
-git clone https://github.com/yourusername/your-repo.gitdocker-compose build
+
+  git clone https://github.com/yourusername/your-repo.gitdocker-compose build 
 
 ### 3. Run the Docker Containers
 Use Docker Compose to start the containers for your application and database:
